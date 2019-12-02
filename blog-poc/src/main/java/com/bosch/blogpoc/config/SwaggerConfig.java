@@ -25,9 +25,9 @@ public class SwaggerConfig {
     return new ApiInfoBuilder().title("Blog-POC")
         .description("Spring boot + MongoDB CRUD Operations")
 				.license(
-						"Copyright 2019 (c) All rights by Robert Bosch GmbH. We reserve all rights of disposal such as copying and passing on to third parties.")
+            "Copyright 2019 (c) All rights Reserved.")
 				.licenseUrl("https://www.bosch.de/").termsOfServiceUrl("").version("0.4.2")
-				.contact(new Contact("", "", "sellamuthu.maheshkumar@in.bosch.com")).build();
+        .contact(new Contact("", "", "mailid")).build();
 	}
 
 	@Bean
